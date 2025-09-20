@@ -1,0 +1,22 @@
+numbers = [7, 2, 5]
+numbers.append(4)
+numbers.insert(2, 10)
+print(numbers)
+numbers.extend([1,1,1])
+print(numbers)
+numbers.remove(7)
+print(numbers)
+pop=numbers.pop(-1)
+print(pop)
+print(numbers)
+numbers.sort()
+print(numbers)
+numbers.reverse()
+print(numbers)
+print(numbers.count(2))
+print(numbers.index(1))
+copy = numbers
+deepcopy=numbers[::]
+numbers.clear()
+print(copy, deepcopy)
+print(id(copy),id(deepcopy))
